@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Exercicio1 {
 
     public static void main(String[] args) {
@@ -9,6 +7,15 @@ public class Exercicio1 {
 
         int maior,menor;
 
+       int numeroDia = 11;
+       System.out.println(numeroDia <= 15 ?  "primeira quinzena" : "segunda quinzena" );
+
+       String s1 = "carlos";
+       String s2 = "carlos";
+
+       if (s1 == s2){
+           System.out.println("sao iguais");
+       }
         if (n1 > n2 && n1 > n3){
             maior = n1;
         } else if ( n2 > n1 && n2 > n3 ) {
